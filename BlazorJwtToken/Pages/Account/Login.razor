@@ -1,0 +1,10 @@
+﻿@page "/account/login"
+@page "/account/login/{ReturnUrl}"
+
+@layout LoginLayout
+
+<h3>My Login</h3>
+
+@code {    
+    [Parameter] public string? ReturnUrl { get; set; }
+}
